@@ -1,0 +1,23 @@
+Alg1. 
+1) Suavize a imagem, aplicando um filtro Gaussiano
+2) Na imagem do passo 1, aplique o filtro convolucional de Gradiente 
+2.1) um filtro de Sobel para a derivada na direção x, gerando uma imagem/matriz, A, com os valores da derivada em cada pixel/elemento da matriz;
+2.2) um filtro de Sobel para a derivada na direção y, gerando uma imagens/matriz, B, com os valores da derivada em cada pixel/elemento da matriz;
+2.3) em cada uma das matrizes, A e B, eleve ao quadrado os valores dos elementos;
+2.4) some as duas matrizes A e B modificadas no passo 2.3 e tire a raiz quadrada  de cada elemento dessa matriz, C
+3) Escolha um valor (float)  para threshold e 
+4) gere uma matriz Final, D, com 
+>>>>> pixel 0 caso o pixel correspondente da matriz C seja menor do que o threshold
+>>>>> pixel 1. caso o pixel correspondente da matriz C seja maior do que o threshold.
+
+
+Alg2.
+1) Suavize a imagem, aplicando um filtro Gaussiano
+2) Na imagem do passo 1, aplique o filtro convolucional de Laplace, gerando uma imagem/matriz A
+3) Por simplicidade, gere uma imagem/matriz, B, percorrendo a imagem A e escrevendo em B
+>>>>>  1. caso o pixel correspondente da matriz A seja diferente de 0 dentro de uma tolerância (0.0001, por exemplo)
+>>>>> 0. cado o pixel correspondente da matriz A seja igual a 0 dentro de uma tolerância (0.0001, por exemplo).
+
+
+
+Nos dois algoritmos, as Edges (bordas) serão representadas por pixels pretos e os outros pixels serão brancos.
