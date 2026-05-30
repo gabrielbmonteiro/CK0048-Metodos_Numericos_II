@@ -1,6 +1,6 @@
 # CK0048 - Métodos Numéricos II 🧮
 
-Este repositório reúne o ecossistema de algoritmos e modelagens computacionais desenvolvidos para a disciplina de **Métodos Numéricos II (Cálculo Numérico Avançado)** do Departamento de Computação da Universidade Federal do Ceará (UFC). O foco principal do projeto é a implementação e análise de métodos numéricos para problemas de Álgebra Linear Numérica (Cálculo de Autovalores/Autovetores), Quadratura Gaussiana Avançada, Diferenciação Numérica e Solução de Equações Diferenciais Ordinárias (PVI e PVC).
+Este repositório reúne o ecossistema de algoritmos e modelagens computacionais desenvolvidos para a disciplina de **Métodos Numéricos II** do Departamento de Computação da Universidade Federal do Ceará (UFC). O foco principal do projeto é a implementação e análise de métodos numéricos para problemas de Álgebra Linear Numérica (Cálculo de Autovalores/Autovetores), Quadratura Gaussiana Avançada, Diferenciação Numérica e Solução de Equações Diferenciais Ordinárias (PVI e PVC).
 
 ---
 
